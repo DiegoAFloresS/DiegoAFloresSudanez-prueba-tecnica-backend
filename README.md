@@ -9,7 +9,7 @@ Sistema de Reservas para una cadena hotelera. Esta API permite gestionar habitac
 - Axios (en frontend)
 - Git
 
-## 📦 Instalación del backend
+Instalación del backend
 
 1. Clona el repositorio:
    ```bash
@@ -23,7 +23,10 @@ const db = mysql.createPool({
   database: 'hotel_db',
 });
 
-npm start
+npm start en frontend 
+npm run dev en backend
+
+Tomar en cuenta esta base de datos enMysql Workbench
 CREATE DATABASE IF NOT EXISTS hotel_reservas;
 USE hotel_reservas;
 
@@ -66,6 +69,8 @@ INSERT INTO cliente (nombre, documento, contacto) VALUES
 
 INSERT INTO reserva (habitacion_id, cliente_id, fecha_entrada, fecha_salida, total_pagado)
 VALUES (3, 1, '2025-07-16', '2025-07-20', 750.00);
+
+
 
 
 
