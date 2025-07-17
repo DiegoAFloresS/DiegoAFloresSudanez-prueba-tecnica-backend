@@ -1,0 +1,69 @@
+/* src/pages/Clientes.css */
+
+.clientes-container {
+  max-width: 800px;
+  margin: 30px auto;
+  background-color: #f8f9fa;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.clientes-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.clientes-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.clientes-container input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.clientes-container button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.clientes-container button:hover {
+  background-color: #218838;
+}
+
+.clientes-container p {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.clientes-container h3 {
+  margin-top: 30px;
+  color: #444;
+}
+
+.clientes-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.clientes-container li {
+  background-color: #fff;
+  margin-bottom: 8px;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}

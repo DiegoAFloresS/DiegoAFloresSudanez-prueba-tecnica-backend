@@ -1,0 +1,46 @@
+.habitaciones-container {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.habitaciones-container h2 {
+  text-align: center;
+  color: #2563eb;
+  margin-bottom: 20px;
+}
+
+.habitaciones-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.habitaciones-table th,
+.habitaciones-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.habitaciones-table th {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.habitaciones-table tr:nth-child(even) {
+  background-color: #f1f5f9;
+}
+
+.habitaciones-table .disponible {
+  color: green;
+  font-weight: bold;
+}
+
+.habitaciones-table .no-disponible {
+  color: red;
+  font-weight: bold;
+}

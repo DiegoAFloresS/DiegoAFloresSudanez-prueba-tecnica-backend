@@ -1,0 +1,109 @@
+/* FormularioReserva.css */
+
+.formulario-reserva {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin: 20px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.formulario-reserva h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.formulario-reserva form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.formulario-reserva label {
+  flex: 1 1 100px;
+  font-weight: bold;
+}
+
+.formulario-reserva select,
+.formulario-reserva input[type="date"] {
+  flex: 2 1 200px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.formulario-reserva button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  margin-top: 10px;
+}
+
+.formulario-reserva button:hover {
+  background-color: #0056b3;
+}
+
+.formulario-reserva .error {
+  color: red;
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.formulario-reserva .success {
+  color: green;
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+.tabla-reservas {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tabla-reservas th,
+.tabla-reservas td {
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.tabla-reservas thead {
+  background-color: #007bff;
+  color: white;
+}
+
+.tabla-reservas tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.tabla-reservas tr:hover {
+  background-color: #f1f1f1;
+}
+
+.tabla-reservas button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.tabla-reservas button:hover {
+  background-color: #c82333;
+}
