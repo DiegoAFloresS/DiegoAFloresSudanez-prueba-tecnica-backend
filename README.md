@@ -22,6 +22,8 @@ const db = mysql.createPool({
   password: '',
   database: 'hotel_db',
 });
+npm install express cors body-parser
+npm install nodemon --save-dev
 
 npm start en frontend 
 npm run dev en backend
